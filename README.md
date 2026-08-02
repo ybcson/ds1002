@@ -1,1 +1,1 @@
-# ds1002
+# ds1002 syllabi page
