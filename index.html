@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Afsaneh Doryab">
+    <title>Data and Information Engineering (SYS 2202) </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/vision-style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="theme-color" content="#563d7c">
+  
+  </head>
+<body>
+    <body>
+        <div class="container blank-container pt-3">
+        
+          <header class="website-header">
+          </header>
+        
+          <main role="main" class="px-4 pb-5">
+            <div class="header row header-text mb-2" style="padding-top: 2em;" id="main">
+              <!-- <div class="col-lg-9 text-lg-left text-center"> -->
+              <div class="col-lg-9 text-lg-left ">
+
+                <img src="images/uva-logo.png" height="100"> 
+        
+                <h4 class="mb-1" style="color:#444;margin-top:10px">
+                  SYS 2202: Data and Information Engineering<span style="color:#767676;font-size:0.8em">  Spring 2026</span>
+                </h4>
+                
+                <div>
+                  <div class="d-sm-inline">
+                    <img class="rounded-circle my-2" src="images/Doryab Headshot.JPG" width="86">
+                    <!-- <img class="rounded-circle my-2" src="images/mattclark.jpeg" width="86"> -->
+                    <img class="rounded-circle my-2" src="images/1634286979755.jpeg" width="86"> 
+                    <img class="rounded-circle my-2" src="images/antonia.png" width="86"> 
+                    <img class="rounded-circle my-2" src="images/grace.png" width="86"> 
+                    <img class="rounded-circle my-2" src="images/mia.png" width="86">
+                    <img class="rounded-circle my-2" src="images/sofia.png" width="86">
+                    
+                  </div>
+                </div>
+                <div>
+                  <span>Instructor: <a href="https://www.afsanehdoryab.com/"><strong>Afsaneh Doryab</strong></a></span>
+                  <span class="d-lg-inline d-block mb-lg-0 mb-2">(ad4ks@virginia.edu), <span style="font-size:0.9em">Office Hours (subject to change): Wed. 1-3 PM at Olsson 255 (Link Lab).</span></span>
+                </div>
+                
+                <!-- <div>
+                  <span>Teaching Assistant: <strong>Matthew Clark</strong></a></span> 
+                  <span class="d-lg-inline d-block mb-lg-0 mb-2">(wdd6ts@virginia.edu), <span style="font-size:0.9em">Office Hours: Mon. 1-3 PM at Olsson 111 (Study Room).</span></span>
+                </div> -->
+                 <div>
+                  <span>Teaching Assistant: <strong>Yeonbin Son</strong></span>
+                  <span class="d-lg-inline d-block mb-lg-0 mb-2">(ybson@virginia.edu), <span style="font-size:0.9em">Office Hours: Wed. 5-7 PM at Olsson 103.</span></span>
+                </div>
+                <div>
+                  <span>Teaching Assistant: <strong>Antonia Winkler</strong></a></span> 
+                  <span class="d-lg-inline d-block mb-lg-0 mb-2">(jjq9sp@virginia.edu), <span style="font-size:0.9em">Office Hours: Tues. 11 AM-1 PM at Olsson 111 (Study Room).</span></span>
+                </div>
+                <div>
+                  <span>Teaching Assistant: <strong>Grace Fry</strong></a></span> 
+                  <span class="d-lg-inline d-block mb-lg-0 mb-2">(fjw3uf@virginia.edu), <span style="font-size:0.9em">Office Hours: Mon. 5-7 PM at Olsson 103.</span></span>
+                </div>
+                <div>
+                  <span>Teaching Assistant: <strong>Mia deLadurantaye</strong></a></span> 
+                  <span class="d-lg-inline d-block mb-lg-0 mb-2">(jmb4fk@virginia.edu), <span style="font-size:0.9em">Office Hours: Tues. 9:30-11:30 AM at Olsson 111 (Study Room).</span></span>
+                </div>
+                <div>
+                  <span>Teaching Assistant: <strong>Sofia Luis</strong></a></span> 
+                  <span class="d-lg-inline d-block mb-lg-0 mb-2">(hup6sk@virginia.edu), <span style="font-size:0.9em">Office Hours: Thur. 4-6 PM at Olsson 111 (Study Room).</span></span>
+                </div>
+
+                <div>
+                  <span>Class Time: <strong>Monday and Wednesday between 3:30 and 4:45PM (ET) in MEC 205.</strong></a></span> 
+                </div>
+          
+                
+              </div>
+        
+            <!-- <hr> -->
+            <div style=" position:fixed;background:white;width:100%;z-index: 999;top: 0;flex-direction: column; padding-bottom: 1em; padding-top: 1em;">
+              <span>
+                <a href="#main">Main</a> | <a href="#class">Course Information</a> | <a href="#schedule">Schedule</a> | <a href="#components">Course Components</a> | <a href="#policies">Course Policies</a> 
+              </span>
+            </div>
+            <!-- <hr> -->
+            </div>
+        
+            <div class="section" id="class" style="padding-top: 3em;">
+            <h4> Basic Course Information</h4>
+          </div>
+          <hr>
+            <div class="section row mb-2 p-1" style="padding-top:3em;overflow: auto;">
+              
+              <div class="col-12 p-2" id="description" style="padding-top: 2 em;">
+          <strong><b>Course Description: </b></strong>
+                  <p>
+                  This course
+                  <ul>
+                  <li>Provides students with the background necessary to model, store, manipulate, and exchange information throughout an information system to support decision-making;</li>
+                  <li>Incorporates both conceptual bases and corresponding technology standards, including the Unified Modeling Language (UML), Entity Relationship Diagrams, SQL, and others;</li>
+                  <li>Covers the development of conceptual (semantic) models for describing data and their relationships, relational models, effective use of SQL for data definition and manipulation, web-based technologies for disseminating information, and the major components of modern information systems; and</li>
+                  <li>Emphasizes the application of these technologies through analyzing, designing, and implementing web-enabled database systems.</li>
+                  </p>
+                </ul>
+                    
+          <strong><b>Learning Objectives: </b></strong> 
+             
+              <p>
+              By the end of this course, you will be able to
+              <ul>
+                <li>Articulate fundamental data and information engineering concepts and apply them to systems engineering problems; </li>
+                <li>Model data using entity-relationship diagrams (ERDs) and the Unified Modeling Language (UML);</li>
+                <li>Deploy relational databases to house, serve, and integrate data in an efficient and integrity-preserving fashion;</li>
+                <li>Effectively use SQL, Python, and data interchange formats (e.g., JSON) to model, store, process, and explore data; </li>
+                <li>Analyze the basic quantitative and qualitative properties of data;</li>
+                <li>Display the properties of data that are most important for the decision at hand;</li>
+                <li>Access, configure, and use cloud-based services; and</li>
+                <li>Construct a data engineering pipeline for a real-world application.</li>
+              </p>
+             </ul>
+          </div>
+              <div class="col-6 p-2" id="prereqs" style="padding-top: 2 em;">
+                <strong><b>Prerequisites: </b></strong> 
+                <p>SYS 2001, CS 1110, CS 2110, SYS 3501, SIE Major. </p>
+              </div>
+        
+              <div class="col-6 p-2" id="textbook" style="padding-top: 2 em;">
+          <strong><b>Textbook:</b></strong> 
+                  <p>No required textbook to purchase, but below texts will be referenced and students are encouraged to read chapters from: 
+            </p><ul>
+              <li><a href="https://collab.its.virginia.edu/access/content/group/991863b3-61bb-451b-a126-dcfa0da4c1ac/Books%20and%20resources/fundamentals-of-data-engineering.pdf"> Fundamentals of Data Engineering </a> by Joe Reis and Matt Housley</li>
+              <li><a href="https://downloads.yugabyte.com/marketing-assets/O-Reilly-SQL-Cookbook-2nd-Edition-Final.pdf">SQL Cookbook</a> by Anthony Molinaro and Robert de Graaf</li>
+              <li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python for Data Science Handbook</a>  by Jake VanderPlas. </li>
+              <li><a href="https://matplotlib.org/">Matplotlib: Visualization with Python</a> </li>
+            </ul>
+            <p></p>
+              </div>
+            </div>
+        
+            <div class="section " id="schedule" style="padding-top: 3em;">
+              <h4>Schedule</h4>
+              <hr>
+              <div class="section section-text">
+              <p>
+                <strong>Disclaimer: </strong>
+                The instructors reserve the right to make changes to the syllabus, including weekly lab, project, and exam due dates. These changes will be 
+                announced as early as possible.
+              </p>
+            </div>
+
+             <h5>Modules</h5>
+
+              Module 1: Introduction to Data Engineering (Week 1–2)
+              <ul>
+                <li>Data Engineering Lifecycle</li>
+                <li>Data Generation and Collection</li>
+                <li>Data Interchange Formats</li>
+              </ul>
+              
+              Module 2: Relational Databases and SQL (Week 3–6)
+              <ul>
+                <li>Entity-Relationship Diagrams (ERD)</li>
+                <li>Understanding Relational Databases</li>
+                <li>Structured Query Language (SQL)</li>
+                <li>Data Manipulation and Querying in SQL</li>
+              </ul>
+              
+              Module 3: Cloud-Based Data Engineering (Week 9)
+              <ul>
+                <li>Introduction to Cloud Computing</li>
+                <li>AWS Services for Data Engineering</li>
+                <li>Hands-on: Accessing, Configuring, and Using AWS for Data Management</li>
+              </ul>
+              
+              Module 4: Data Processing (Week 10–11)
+              <ul>
+                <li>Data Transformation</li>
+                <li>Data Exploration</li>
+                <li>Data Modeling</li>
+              </ul>
+              
+              Module 5: Constructing a Data Engineering Pipeline (Week 12–15)
+              <ul>
+                <li>ETL &amp; ELT</li>
+                <li>Architecture and Processing Flow Design and Implementation</li>
+              </ul>
+
+            
+            <h5>Class Schedule</h5> 
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Topic</th>
+                    <!-- <th scope="col">Assignment</th> -->
+                    <th scope="col" style="text-align: center;">Assignment</th>
+
+                  </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td>Mon, Jan 12</td>
+                  <td>
+                   Data Engineering Lifecycle <!--[<a href="">pptx</a>] [<a href="">pdf</a>]-->
+                  </td>
+                  <td class="text-center" colspan="8"></td>
+                </tr>
+          
+                <tr>
+                  <td>Wed, Jan 14</td>
+                  <td>
+                    Data Generation and Collection
+                  </td>
+                  <td class="text-center" colspan="8">
+                    Project Stage 1 - Group Formation, Start Jan 14, 9:00 AM - End Jan 29, 23:59
+                  </td>
+                </tr>
+
+                <tr class="noclass">
+                  <td>Mon, Jan 19</td>
+                  <td>No Class -- MLK holiday </td>
+                  <td class="text-center" colspan="8">DataCamp Part 1 Release Jan 19, 9:00AM 10,000 XPs due Feb 19, 23:59</td>
+                </tr>
+
+                <tr>
+                  <td>Wed, Jan 21</td>
+                  <td>
+                    Data Interchange Formats
+                  </td>
+                  <td class="text-center" colspan="8"></td>
+                </tr>
+        
+                <tr>
+                  <td>Mon, Jan 27</td>
+                  <td>
+                    Entity Relationship Diagrams
+                  </td>
+                  <td class="text-center" colspan="8">Homework Release Jan 27, 9:00 AM, due Feb 20, 23:59</td>
+                </tr>
+        
+                <tr>
+                  <td>Wed, Jan 29</td>
+                  <td>
+                    Lab 1
+                  </td>
+                  <td class="text-center" colspan="8"></td>
+                </tr>
+        
+                <tr>
+                  <td>Mon, Feb 2</td>
+                  <td>
+                    Understanding Relational Databases
+                  </td>
+                  <td class="text-center" colspan="8">Project Stage 2 - Topic Selection and Proposal Writing Start Feb 2, 9:00 AM, End Feb 13, 23:59
+                  </td>
+                </tr>
+        
+                <tr>
+                  <td>Wed, Feb 4</td>
+                  <td>
+                    Lab 2
+                  </td>
+                  <td class="text-center" colspan="8"></td>
+                </tr>
+
+                <tr>
+                  <td>Mon, Feb 9</td>
+                  <td>
+                    Effective Use of SQL for Relational Data Models</td>
+                  <td class="text-center" colspan="8"></td>
+                </tr>
+        
+                <tr>
+                  <td>Wed, Feb 11</td>
+                  <td>
+                    Lab 3
+                  </td>
+                  <td class="text-center" colspan="8"></td>
+                </tr>
+        
+                <tr>
+                  <td>Mon, Feb 16</td>
+                  <td>
+                    SQL for Data Transformation and Querying
+                  </td>
+                  <td class="text-center" colspan="8">Project Stage 3 - Database Design Start Feb 16, 9:00 AM, End Mar 17, 23:59
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Wed, Feb 18</td>
+                  <td>
+                    Lab 4
+                  </td>
+                  <td class="text-center" colspan="8">
+                    
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Mon, Feb 23</td>
+                  <td>
+                    Homework Solution - Midterm Review
+                  </td>
+                  <td class="text-center" colspan="8">
+                  </td>
+                </tr>
+
+                <!-- <tr>
+                  <td>Wed, Feb 25 3:30-4:45pm</td>
+                  <td>
+                    Midterm Part B In-class, Part A Online
+                  </td>
+                  <td class="text-center" colspan="8">
+                  </td>
+                </tr> -->
+        
+                <tr class="exam">
+                  <td><strong>Wed, Feb 25 </strong></td>
+                  <td class="text-center" colspan="8"> <strong> Midterm Part B In-class, Part A Online</strong>
+                  </td>  
+                </tr>
+        
+                <tr class="noclass">
+                  <td>Mon, Mar 2</td>
+                  <td>No Class -- Spring Break </td>
+                  <td class="text-center" colspan="8"></td>
+                </tr>
+
+                <tr class="noclass">
+                  <td>Wed, Mar 4</td>
+                  <td>No Class -- Spring Break </td>
+                  <td class="text-center" colspan="8"></td>
+                </tr>
+
+                <tr>
+                  <td>Mon, Mar 9</td>
+                  <td>
+                    Distributed and Cloud-based Services
+                  </td>
+                  <td class="text-center" colspan="8">Datacamp Part 2 Release Mar 9, 9:00 AM 10,000 XPs, due Apr 9, 23:59
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Wed, Mar 11</td>
+                  <td>
+                    Lab 5
+                  </td>
+                  <td class="text-center" colspan="8">
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Mon, Mar 16</td>
+                  <td>
+                    Data Processing 1
+                  </td>
+                  <td class="text-center" colspan="8">
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Wed, Mar 18</td>
+                  <td>
+                    Lab 6
+                  </td>
+                  <td class="text-center" colspan="8">Project Stage 4 - Database Implementation, Start Mar 18, 9:00 AM, due Mar 31, 23:59
+                  </td>
+                </tr>
+
+
+                <tr>
+                  <td>Mon, Mar 23</td>
+                  <td>
+                    Data Processing 2
+                  </td>
+                  <td class="text-center" colspan="8">
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Wed, Mar 25</td>
+                  <td>
+                    Lab 7
+                  </td>
+                  <td class="text-center" colspan="8">
+                  </td>
+                </tr>
+
+
+                <tr>
+                  <td>Mon, Mar 30</td>
+                  <td>
+                    Data Pipeline 1
+                  </td>
+                  <td class="text-center" colspan="8">
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Wed, Apr 1</td>
+                  <td>
+                    Lab 8
+                  </td>
+                  <td class="text-center" colspan="8">
+                    Project Stage 5 - Pipeline Design, Start Apr 1, 9:00AM, due Apr 12, 23:59 
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Mon, Apr 6</td>
+                  <td>
+                    Data Pipeline 2
+                  </td>
+                  <td class="text-center" colspan="8">
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Wed, Apr 8</td>
+                  <td>
+                    Lab 9
+                  </td>
+                  <td class="text-center" colspan="8">
+                  </td>
+                </tr>
+        
+                <tr>
+                  <td>Mon, Apr 13</td>
+                  <td>
+                    Data Pipeline 3
+                  </td>
+                  <td class="text-center" colspan="8">Project Stage 6 - Pipeline Implementation, Start Apr 13, 9:00AM, due Apr 21, 23:59 
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Wed, Apr 15</td>
+                  <td>
+                    Lab 10
+                  </td>
+                  <td class="text-center" colspan="8">
+                  </td>
+                </tr>             
+
+                <tr>
+                  <td>Mon, Apr 20</td>
+                  <td>
+                    Data Pipeline 4
+                  </td>
+                  <td class="text-center" colspan="8">
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Wed, Apr 22</td>
+                  <td>
+                    Lab 11
+                  </td>
+                  <td class="text-center" colspan="8">
+                    Final Project Wrap-up and Submission, due May 5, 23:59
+                  </td>
+                </tr>  
+
+                <tr>
+                  <td>Mon, Apr 27</td>
+                  <td>
+                    Final Exam Review
+                  </td>
+                  <td class="text-center" colspan="8">
+                  </td>
+                </tr>  
+                  
+                <tr class="exam">
+                  <td><strong>Thur Apr 30, 2-5pm </strong></td>
+                 <td class="text-center" colspan="8"> <strong> Final Exam Part A and B In-person (place TBD) </strong>
+                  </td>  
+                </tr>
+       
+                  
+                </tbody>
+              </table>
+            </div>
+        
+            <div class="section course-component" id="components" style="padding-top: 3em;">
+              <h4> Course Components </h4>
+              <hr>
+
+              
+              <p id="lectures" style="padding-top: 2 em;">
+                <strong><b>Lectures: </b></strong>
+                </p><p>Unless otherwise planned, lectures will be held on Mondays. The lectures will primarily focus on concepts and foundational knowledge in data and information engineering.
+               </p>
+              <p></p>
+
+              <p id="quiz" style="padding-top: 2 em;">
+                <strong><b>Quizzes: </b></strong>
+                </p><p>There will be in-class quizzes during each lecture. Quizzes are instructor-paced, and questions are prompted at different times during the lecture. Quizzes are <strong>not graded.</strong> However, <strong>their completion is tracked for course attendance and participation</strong>. You can miss one quiz before the midterm and one quiz after the midterm. You must login to Poll Everywhere through Canvas to receive credit for quizzes. More instructions will be provided during the start of the semester.
+               </p>
+              <p></p>
+
+          
+              <p id="lab" style="padding-top: 2 em;">
+                <strong><b>Labs: </b></strong>
+                </p><p>Unless stated otherwise, we will have hands-on lab sessions on Wednesdays. These labs will be roughly divided into two parts. In the first part, cases and solutions related to the current week’s topic and/or previous week are provided, and you follow along on your laptop. Lab exercises will often span multiple weeks, and we will work on a new part each week as we learn more concepts and techniques. In the second part of the lab, you will work on a new assignment independently or with your classmates while receiving assistance from the instructors and TAs. You can miss one lab submission before the midterm and one lab submission after the midterm.
+                </p>
+              <p></p>
+          
+              <p id="hands-on" style="padding-top: 2 em;">
+                <strong><b>Datacamp: </b></strong>
+                </p><p>SYS2202 is a hands-on course, making practice essential beyond class time. We will use DataCamp, an interactive platform, to allow you to practice and review some of the topics covered in the course. Please ensure you can access and navigate the platform, and if you face any issues, please inform us immediately. Your grade will be based on the number of points earned. To receive full credit, you must complete the specific DataCamp assignments for this course and earn a minimum of 10,000 XPs  before the midterm and a minimum of 10,000 XPs after the midterm. Please note that XPs earned from other classes will not count toward this limit. You should ensure 30K XPs are from the assignments specific to SYS2202. 
+                </p>
+              <p></p>
+          
+              <p id="exams" style="padding-top: 2 em;">
+                <strong><b>Exams: </b></strong>
+                </p><p>
+                  Exams are based entirely on classroom material, quizzes, readings, homework, Datacamp, and labs. Part A of the exam will contain multiple-choice or short-answer questions to test your foundational knowledge, and Part B will be more descriptive and test your technical skills. The midterm focuses on content related to relational databases and SQL (Modules 1-2). The final exam includes all content before and after the midterm (Modules 1-5). A better grade in the final exam can replace the midterm, but the opposite is NOT true. There will be no makeup exams except for extreme circumstances. If you miss the midterm, you should make up for it in the final. The exams will be in-person, so please ensure to plan accordingly.
+                </p>
+          <p></p>
+          
+          <p id="course project" style="padding-top: 2 em;">
+                <strong><b>Course Project: </b></strong>
+                </p><p>
+                  For your course project, you will develop a data pipeline using <strong>Python</strong> on a topic of your choice. You can work on the project in a group of 4-5 students. Please plan to identify your teammates and topic of interest within a couple weeks of the semester's beginning. There will be multiple cumulative deliverables throughout the semester. The final deliverable is due on May 5, 2026, at 23:59. More information will be available during the semester.
+                </p>
+              <p></p>
+            </div>
+
+            <p id="grading" style="padding-top: 0.5em;">
+              <strong><b>Grading: </b></strong> 
+                </p>
+            <ul> 
+                <li>Labs: 10%  </li>
+                <li>Quizzes: 10%</li>
+                <li>Datacamp: 15% + up to 1% extra credit for an additional 10,000 XPs</li>
+                <li>Midterm Exam: 15% + up to 1% extra credit for homework completion</li>
+                <li>Final Exam: 20%</li>
+                <li>Course Project: 30% + up to 1% extra credit</li>
+              </ul>
+            <p></p>
+
+            <p id="grading" style="padding-top: 0.5em;">
+              <strong><b>Grading Threshold: </b></strong> 
+                </p><p>The grading thresholds are based on UVA's default schema outlined <a href="https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=1153c16fdba41f444f32fb671d961934">here</a>.
+                  <table>
+                    <tr>
+                      <td>Grade</td>
+                      <td>Range</td>
+                    </tr>
+                    <tr>
+                      <td>A+</td>
+                      <td>100+</td>
+                    </tr>
+                    <tr>
+                      <td>A</td>
+                      <td>95-99</td>
+                    </tr>
+                    <tr>
+                      <td>A-</td>
+                      <td>90-94</td>
+                    </tr>
+                    <tr>
+                      <td>B+</td>
+                      <td>87-89</td>
+                    </tr>
+                    <tr>
+                      <td>B</td>
+                      <td>83-86</td>
+                    </tr>
+                    <tr>
+                      <td>B-</td>
+                      <td>80-82</td>
+                    </tr>
+                    <tr>
+                      <td>C+</td>
+                      <td>77-79</td>
+                    </tr>
+                    <tr>
+                      <td>C</td>
+                      <td>73-76</td>
+                    </tr>
+                    <tr>
+                      <td>C-</td>
+                      <td>70-72</td>
+                    </tr>
+                    <tr>
+                      <td>D+</td>
+                      <td>67-69</td>
+                    </tr>
+                    <tr>
+                      <td>D</td>
+                      <td>63-66</td>
+                    </tr>
+                    <tr>
+                      <td>D-</td>
+                      <td>60-62</td>
+                    </tr>
+                    <tr>
+                      <td>F</td>
+                      <td><=59</td>
+                    </tr>
+                  </table>
+
+              </ul>
+            <p></p>
+
+
+
+
+          
+            <div class="section policies-text" id="policies" style="padding-top: 4em;">
+          <h4> Course Policies </h4>
+          <hr>
+               <p id="submission" style="padding-top: 0.5em;">
+          <strong><b>Submission and Late Submission Policy: </b></strong> 
+                </p>
+                <p>Unless the student has procured special accommodations for warranted circumstances, late submissions will face the following penalty:
+                  <ul>
+                  <li>Within 30 minutes after the due date: 1%</li>
+                  <li>Within 2 hours after the due date: 5%</li>
+                  <li>Within 24 hours after the due date: 10%</li>
+                  <li>Within 48 hours after the due date: 20%</li>
+                  <li>After 48 hours: 50%</li>  
+                  </ul>
+                  </p>
+            <p></p>
+              <p></p>
+              <p id="illness" style="padding-top: 1em;">
+          <strong><b>Illness: </b></strong> 
+                </p><p>
+                  Please do not email me asking for special accommodations due to sickness. Instead, please make every effort to catch up with your classwork as soon as possible. You are allowed to miss one lecture (& quiz) and one lab before the midterm, as well as one lecture (& quiz) and one lab after the midterm. There will be no makeup exams except for extreme circumstances. If you miss the midterm, you should make up for it in the final. The exams will be in-person, so please ensure to plan accordingly. For further details, please read the sections about quizzes, labs, and exams. 
+                  </p>
+              <p></p>
+             
+              <p></p>
+              <p id="religious" style="padding-top: 1em;">
+          <strong><b>Religious Accommodations: </b></strong> 
+                </p><p>It is the University's long-standing policy and practice to reasonably accommodate students so that they do not experience an adverse academic consequence 
+                  when sincerely held religious beliefs or observances conflict with academic requirements.</p>
+                <p>Students who wish to request academic accommodation for a religious observance should submit their request to us by private message on Piazza
+                  as far in advance as possible. Students who have questions or concerns about academic accommodations for religious observance or religious beliefs may contact 
+                  the University's Office for Equal Opportunity and Civil Rights (EOCR) at <a href="mailto:UVAEOCR@virginia.edu">UVAEOCR@virginia.edu</a> or 434-924-3200.</p>
+              <p></p>
+        
+              <p id="accessibility" style="padding-top: 1em;">
+              <strong><b>Accessibility Statement: </b></strong> 
+             </p><p>
+            My goal is to create a learning experience that is as accessible as possible. If you anticipate any issues related to the format, materials, or requirements of this course, please meet with me outside of class so we can explore potential options. Students with disabilities may also wish to work with the Student Disability Access Center (SDAC) to discuss a range of options for removing barriers in this course, including official accommodations. Fortunately, We have an SDAC advisor, Courtney MacMasters, physically located in Engineering. You may email her at sdac.studenthealth@virginia.edu. If you have already been approved for accommodations through SDAC, please send me your accommodation letter and meet with me to develop an implementation plan together.
+             </p>   
+              
+               <p id="integrity" style="padding-top: 1em;">
+               <strong><b>Academic Integrity Statement: </b></strong> 
+                </p><p>"The School of Engineering and Applied Science relies upon and cherishes its community of trust. 
+                We firmly endorse, uphold, and embrace the University's Honor principle that students will not lie, 
+                cheat, or steal, nor shall they tolerate those who do. We recognize that even one honor infraction can 
+                destroy an exemplary reputation that has taken years to build. Acting in a manner consistent with the principles 
+                of honor will benefit every member of the community both while enrolled in the Engineering School and in the future. 
+                Students are expected to be familiar with the <a href="http://honor.virginia.edu/academic-fraud">university honor code</a>, 
+                including the section on academic fraud." <br>
+                <br>In summary, if assignments are individual then no two students should submit the same source code -- any overlap in source code of 
+                sufficient similarity will be potentially flagged as failure to abide to the Honor Code. You can discuss, you can share resources, you can talk
+                about the assignment but not share code as this would potentially incur on an honor code violation.
+                Regardless of circumstances we will assume that any source code, text, or images submitted alongside reports or projects are of the authorship
+                of the individual students unless otherwise explicitly stated through appropriate means. Any missing information regarding sources will be regarded potentially
+                as a failure to abide by the academic integrity statement even if that was not the intent. Please be careful clearly stating
+          what is your original work and what is not in all assignments.</p>
+              <p></p>
+        
+              <p id="genai" style="padding-top: 1em;">
+                <strong><b>The Use of Generative AI: </b></strong> 
+        
+                 </p><p>
+                  Generative artificial intelligence tools—software that creates new text, images, computer code, audio, video, and other content—have become widely available. Well-known examples include ChatGPT for text and DALL•E for images. This policy governs all such tools, including those released during our semester together. You may use generative AI tools on assignments in this course only when I explicitly permit it. Otherwise, you should refrain from using such tools.
+ </p>
+                  
+                  <p>If you use generative AI tools on assignments in this class, you must properly document and credit the tools themselves. Cite the tool you used, following the pattern for computer software in the specified style guide. Additionally, please include a brief description of how you used the tool. If you choose to use generative AI tools, please remember that they are typically trained on limited datasets that may be outdated. Additionally, generative AI datasets are trained on pre-existing material, including copyrighted material; therefore, relying on a generative AI tool may result in plagiarism or copyright violations.
+ </p>
+                  
+                <p>  Finally, remember that the goal of generative AI tools is to produce content that seems to have been produced by a human, not to produce accurate or reliable content; therefore, relying on a generative AI tool may result in your submission of inaccurate content. It is your responsibility—not the tool’s—to ensure the quality, integrity, and accuracy of the work you submit in any college course. If you use generative AI tools to complete assignments in this course in ways that I have not explicitly authorized, I reserve the right to apply the Honor Code to your specific case. In addition, you must be wary of unintentional plagiarism or fabrication of data. Please act with integrity for the sake of both your personal character and your academic record.
+
+                 </p>
+                
+                <p>In this course, the following policy dictates the acceptable use of generative AI tools, such as ChatGPT and other similar technologies. While I recognize that generative AI can be a tremendous learning tool, I expect that these technologies do not impede your learning of the concepts taught in class. However, these technologies can be used to enhance your learning experience much like one would use Stack Overflow on assignments, except for exams and quizzes, which must be utilized without generative AI.
+                </p>
+        </div>
+              
+        <div class="resources-text" id="resources" style="padding-top: 4em;">
+          <h4> Additional Resources </h4>
+          <hr>
+              <!-- <p id="career" style="padding-top: 0.5em;">
+              <strong><b>Support for Career Development: </b></strong>
+                  </p><p>Engaging in your career development is an important part of your student experience. For example, presenting at a research conference, 
+                     attending an interview for a job or internship, or participating in an extern/shadowing experience are not only necessary steps on your 
+                     path but are also invaluable lessons in and of themselves. I wish to encourage and support you in activities related to your career 
+                     development. To that end, please notify me by email as far in advance as possible to arrange for appropriate accommodations.</p>
+               <p></p>
+         -->
+              <p id="support" style="padding-top: 1em;">
+          <strong><b>Student Support Team: </b></strong>
+                </p><p>You have many resources available to you when you experience academic or personal stresses. In addition to your professors, the School of 
+                   Engineering and Applied Science has staff members located in Thornton Hall who you can contact to help manage academic or personal challenges. 
+                   Please do not wait until the end of the semester to ask for help!</p>
+          <strong><b>Learning: </b></strong>
+                <div>
+                  <span> <a href="mailto:ll4uu@virginia.edu">Lisa Lampe</a>, Director of Undergraduate Education </span>
+                </div>                                  
+               <!-- <div>
+                  <span> <a href="mailto:TBD@virginia.edu">TBD</a>, Director of Undergraduate Success </span>
+                </div>-->
+                <div>
+                  <span> <a href="mailto:cmacmasters@virginia.edu">Courtney MacMasters</a>, Accessibility Specialist </span> 
+                </div>
+                <div>
+                  <span> <a href="https://engineering.virginia.edu/current-students/current-undergraduate-students/student-support/tutoring">Free tutoring</a> is available for most classes<p></p> </span>
+                </div>
+           <strong><b>Health and Well-being: </b></strong>
+                <div>
+                  <span> <a href="https://engineering.virginia.edu/about/offices/office-graduate-programs/student-support-services#accordion716460">Assistant Dean of Students</a> <span>
+                </span></span></div>
+                <div>
+                  <span> Elizabeth Ramirez-Weaver, CAPS counselor </span>
+                </div>
+                <div>
+                <span> Katie Fowler, CAPS counselor </span>
+                </div>
+                <p>You may schedule time with the CAPS counselors through <a href="https://www.studenthealth.virginia.edu/getting-started-caps">Student Health</a>. 
+                   When scheduling, be sure to specify that you are an Engineering student. You are also urged to use <a href="https://www.studenthealth.virginia.edu/timelycare">TimelyCare</a> 
+                   for either scheduled or on-demand 24/7 mental health care.</p>
+           
+            <strong><b>Community and Identity: </b></strong>
+                <p>The Center for Diversity in Engineering (CDE) is a student space dedicated to advocating for underrepresented groups in STEM. It exists to 
+                connect students with the academic, financial, health, and community resources they need to thrive both at UVA and in the world. The CDE includes
+                an open study area, event space, and staff members on site. Through this space, we affirm and empower equitable participation toward intercultural
+                fluency and provide the resources necessary for students to be successful during their academic journey and future careers.</p>
+              <p></p>
+            </div>
+            
+        <p id="discrimination" style="padding-top: 1em;">
+          <strong><b>Harrassment, Discrimination and Interpersonal Violence:</b></strong>
+        </p><p>The University of Virginia is dedicated to providing a safe and equitable learning environment for all students. 
+          If you or someone you know has been affected by power-based personal violence, more information can be found on the UVA Sexual Violence website 
+          that describes reporting options and resources available - <a href="www.virginia.edu/sexualviolence">www.virginia.edu/sexualviolence</a>.</p>
+          <p>The same resources and options for individuals who experience sexual misconduct are available for discrimination, harassment, and retaliation.  
+            UVA prohibits discrimination and harassment based on age, color, disability, family medical or genetic information, gender identity or expression, 
+            marital status, military status, national or ethnic origin, political affiliation, pregnancy (including childbirth and related conditions), race, 
+            religion, sex, sexual orientation, veteran status. UVA policy also prohibits retaliation for reporting such behavior. </p>
+        <p>If you witness or are aware of someone who has experienced prohibited conduct, you are encouraged to submit a report to Just Report It 
+          (<a href="justreportit.virginia.edu">justreportit.virginia.edu</a>) or contact EOCR, the office of Equal Opportunity and Civil Rights.</p>
+          <p>If you would prefer to disclose such conduct to a confidential resource where what you share is not reported to the University, you can turn to 
+            Counseling &amp; Psychological Services ("CAPS") and Women's Center Counseling Staff and Confidential Advocates (for students of all genders).</p>
+        <p>As your professors, know that we care about you and your well-being and stand ready to provide support and resources as we can. As faculty members, we are
+          responsible employees, which means that we are required by University policy and by federal law to report certain kinds of conduct that you report 
+          to us to the University's Title IX Coordinator. The Title IX Coordinator's job is to ensure that the reporting student receives the resources and 
+          support that they need, while also determining whether further action is necessary to ensure survivor safety and the safety of the University community. </p>
+        <p></p>
+        </main></div>
+        
+          
+        
+        
+        <footer class="page-footer">
+          <p>Department of Systems and Information Engineering  <a href="http://www.virginia.edu">the University of Virginia</a> ‒ 151 Engineer's Way, Olsson Hall, Charlottesville, VA 22904
+          </p>
+        </footer>
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Bootstrap JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        
+        
+        
+        <iframe id="8OVHh2E3" frameborder="0" src="chrome-extension://ekhagklcjbdpajgpjgmbionohlpdbjgc/translateSandbox/translateSandbox.html" style="width: 0px; height: 0px; display: none;"></iframe></body>
+</body>
+</html>
